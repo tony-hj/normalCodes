@@ -1,0 +1,20 @@
+<!--pages/control/control.wxml-->
+<view class='control'>
+  <!-- This image shows the camera view -->
+  <image class='cameraView' src='http://192.168.1.104:8080/?action=stream' style="z-index:1"></image>
+ 
+  <!-- The following six images control the car move  -->
+  <image class='button' id='forward' src='{{forwardBtn}}' style="position:absolute;z-index:2" bindtouchstart='carMove' data-direction='F' bindtouchend='carStop'></image>
+  <image class='button' id='left' src='{{leftBtn}}' style="position:absolute;z-index:2" bindtouchstart='carMove' data-direction='L' bindtouchend='carStop'></image>
+  <image class='button' id='right' src='{{rightBtn}}' style="position:absolute;z-index:2" bindtouchstart='carMove' data-direction='R' bindtouchend='carStop'></image>
+  <image class='button' id='backLeft' src='{{backLeftBtn}}' style="position:absolute;z-index:2" bindtouchstart='carMove' data-direction='BL' bindtouchend='carStop'></image>
+  <image class='button' id='backRight' src='{{backRightBtn}}' style="position:absolute;z-index:2" bindtouchstart='carMove' data-direction='BR' bindtouchend='carStop'></image>
+  <image class='button' id='back' src='{{backBtn}}' style="position:absolute;z-index:2" bindtouchstart='carMove' data-direction='B' bindtouchend='carStop'></image>
+ 
+  <!-- The following images control the camera move  -->
+  <image class='button' id='up' src='{{upBtn}}' style="position:absolute;z-index:2" bindtouchstart='camMove' data-direction='VU'></image>
+  <image class='button' id='camLeft' src='{{camLeftBtn}}' style="position:absolute;z-index:2" bindtouchstart='camMove' data-direction='HL'></image>
+  <image class='button' id='camRight' src='{{camRightBtn}}' style="position:absolute;z-index:2" bindtouchstart='camMove' data-direction='HR'></image>
+  <image class='button' id='down' src='{{downBtn}}' style="position:absolute;z-index:2" bindtouchstart='camMove' data-direction='VD'></image>
+  <image class='button' id='reset' src='{{resetBtn}}' style="position:absolute;z-index:2" bindtouchstart='camMove' data-direction='RESET'></image>
+</view>

@@ -1,0 +1,25 @@
+/* pages/text1/text1.wxss */
+.box{
+    font-size: large;
+    font-style: italic;
+    color: turquoise;
+    background-color: tomato;
+}
+
+.icon{
+
+}
+
+.img{
+    
+    width: 140rpx;
+    height: 60rpx;
+}
+.img1{
+    width: 50rpx;
+    height: 50rpx;
+}
+.img2{
+    width: 50rpx;
+    height: 50rpx;
+}

@@ -1,0 +1,24 @@
+<!--pages/telecontrol/telecontrol.wxml-->
+
+  <!--放置四个方向键-->
+  <view>
+    <view>
+      <image
+        src="../../assets/img/MOVE_UP.png"
+        class="icon-UP" bindtap="MOVE">
+      </image>
+      <image 
+        src="../../assets/img/MOVE_LEFT.png" 
+        class="icon-LEFT" bindtap="TURN_LEFT">
+      </image>
+      <image 
+        src="../../assets/img/MOVE_RIGHT.png" 
+        class="icon-RIGHT" bindtap="TURN_LEFT">
+      </image>
+      <image
+        src="../../assets/img/MOVE_DOWN.png"
+        class="icon-BACK" bindtap="MOVE_BACK">
+      </image>
+    </view>
+  </view>
+

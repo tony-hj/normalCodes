@@ -1,0 +1,12 @@
+<button bindtap='openadapter'>打开适配器</button>
+<button bindtap='closeadapter'>关闭适配器</button>
+<button bindtap='opendiscovery'>开始搜索</button>
+<button bindtap='closediscovery'>关闭搜索</button>
+<button bindtap='getdevice'>获取设备</button>
+<button bindtap='getconnecteddevice'>获取已连接设备</button>
+<button bindtap='connecteddevice'>连接我的设备</button>
+<button bindtap='getservice'>获取服务</button>
+<button bindtap='getcharacteristics'>获取特征值</button>
+<button bindtap='startread'>读取值</button>
+<button bindtap='startnotify'>开启notify</button>
+<button bindtap='startwrite'>写数据</button>

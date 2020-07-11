@@ -1,0 +1,28 @@
+/* pages/search_link/search_link.wxss */
+.item {
+  margin-top: 5rpx;
+  padding: 15px 0;
+}
+
+/* 搜索动画css */
+
+.loading {
+  width: 100%;
+  text-align: center;
+}
+
+.zan-card__detail {
+  text-align: center;
+}
+
+.scanFalsetext {
+  font-size: 35rpx;
+}
+
+.reScan {
+  margin-top: 20rpx;
+}
+
+.btn-rescan {
+  margin-left: 40%;
+}

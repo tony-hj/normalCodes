@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText":"bilbil",
+  "usingComponents":{
+    "MyTitle":"../../components/MyTitle/MyTitle"
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "pages": [
+    "pages/bluetooh/bluetooh",
+    "pages/text/text",
+    "pages/index/index",
+    "pages/index1/index1",
+    "pages/tar/tar",
+    "pages/text1/text1"
+    
+  ],
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#F6F6F6",
+    "navigationBarTitleText": "全局",
+    "navigationBarTextStyle": "black"
+  },
+  "sitemapLocation": "sitemap.json",
+  "style": "v2",
+
+  "tabBar": {
+    "color": "#FFC0CB",
+    "selectedColor":"#00FFFF",
+    "list": [
+      {
+      "pagePath": "pages/text/text",
+      "text": "主页",
+      "iconPath": "icons/logo.png",
+      "selectedIconPath": "icons/logo.png"
+    },{
+      "pagePath": "pages/index/index",
+      "text": "副业",
+      "iconPath": "icons/search.png",
+      "selectedIconPath": "icons/search.png"
+    },{
+      "pagePath": "pages/tar/tar",
+      "text": "测试",
+      "iconPath": "icons/search.png",
+      "selectedIconPath": "icons/search.png"
+    }
+  ]
+  }
+
+}
